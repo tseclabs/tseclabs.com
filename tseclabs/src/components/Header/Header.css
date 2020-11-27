@@ -1,0 +1,28 @@
+.header > .menu_bar {
+  background-color: rgb(0, 0, 80);
+}
+
+.links:link {
+  text-decoration: none;
+}
+.links:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.links:active {
+  background-color: slategray;
+}
+
+.header_right {
+  right: 10px;
+  position: absolute;
+  padding: 10px;
+}
+
+.header_right > .signup {
+  padding: 15px;
+}
+.header_right > .signup:hover {
+  background-color: teal;
+}
